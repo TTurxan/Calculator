@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    height: 100vh;
+}
+#main{
+    width: 241px;
+    margin: 0 auto;
+}
+#resultWrapper {
+    background: #2c3e50;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+  }
+  #result {
+      background-color: #fff;
+    font-size: 25px;
+    color: #000;
+    text-align: right;
+    height: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+#main .num{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#numbers{
+    width: 182px;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+}
+#operators{
+    width: 59px;
+    float: right;
+}
+#operators .operator{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+#resultOperators .resultOperator{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 4px;
+}
+#resultOperators #equaton{
+    width: 170px;
+}
